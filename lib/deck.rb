@@ -8,7 +8,7 @@ class Deck
   def self.build_cards
     cards = []
 
-    [:валет, :дама, :король, :туз].each do |suit|
+    ['♥', '♦', '♣', '♠'].each do |suit|
       (2..10).each do |number|
         cards << Card.new(suit, number)
       end
