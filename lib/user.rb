@@ -1,7 +1,7 @@
 class User
   attr_reader :balance
 
-  def init
+  def initialize
     @balance = 100
   end
 
