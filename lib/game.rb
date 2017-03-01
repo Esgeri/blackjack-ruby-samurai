@@ -1,9 +1,6 @@
 class Game
   include Blackjack
 
-  # BLACKJACK = 21
-  # EIGHTEEN = 18
-
   attr_reader :player, :dealer, :deck
 
   def initialize(player, dealer)
