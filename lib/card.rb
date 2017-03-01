@@ -16,5 +16,6 @@ class Card
   def card_value
     return 10 if ['J', 'Q', 'K'].include?(@card)
     return 11 if @card == 'A'
+    @card
   end
 end

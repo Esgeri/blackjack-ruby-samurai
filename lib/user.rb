@@ -1,4 +1,5 @@
 class User
+  attr_accessor :hand
   attr_reader :balance
 
   def initialize
@@ -6,7 +7,7 @@ class User
   end
 
   def increase_balance
-    @balance += 100
+    @balance += 10
   end
 
   def decrease_balance
